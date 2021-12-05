@@ -5,7 +5,7 @@
 * Pipenv
 * Pytest
 
-## Initial Setup using pipenv and (optionally) Jupyter
+## Initial Setup using pipenv
 ```shell
 git clone ...
 pip install pipenv
@@ -13,7 +13,7 @@ pipenv install pytest
 pipenv install...
 ```
 
-# if using jupyter
+## if using jupyter
 ```shell
 pipenv install ipykernel 
 pipenv install ipywidgets 
@@ -28,4 +28,9 @@ pipenv run jupyter lab
 
 In the notebook, Kernel -> Change Kernel -> {environment name}
 
-#### Some inspriration from here: https://medium.com/red-buffer/python-production-level-coding-practices-4c39246e0233
+## Some Options
+* top-level app.py file if creating an application
+* src/commons.py file for common functions or helpers
+
+
+### Some inspriration from here: https://medium.com/red-buffer/python-production-level-coding-practices-4c39246e0233
